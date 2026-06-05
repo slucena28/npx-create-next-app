@@ -1,10 +1,18 @@
 import styles from "./CardDestino.module.css";
 
-export default function CardDestino({ nome, imagem }) {
+export default function CardDestino({
+  nome,
+  imagem,
+  descricao,
+}) {
   return (
     <div className={styles.card}>
       <img src={imagem} alt={nome} />
-      <h3>{nome}</h3>
+
+      <div className={styles.conteudo}>
+        <h3>{nome}</h3>
+        <p>{descricao}</p>
+      </div>
     </div>
   );
 }
