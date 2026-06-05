@@ -1,1 +1,8 @@
-
+const destinos = [
+  {
+    id: 3,
+    nome: "Tóquio",
+    imagem: "https://images.unsplash.com/photo-1540959733332-eab4deabeeaf",
+    descricao: "Uma metrópole moderna cheia de tecnologia."
+  }
+];
