@@ -1,0 +1,12 @@
+.container {
+  text-align: center;
+  margin-top: 50px;
+}
+
+.botao {
+  background: #0077b6;
+  color: white;
+  padding: 12px 20px;
+  border-radius: 8px;
+  text-decoration: none;
+}
