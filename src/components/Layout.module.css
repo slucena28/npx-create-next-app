@@ -1,0 +1,29 @@
+.header {
+  background: #0077b6;
+  color: white;
+  padding: 20px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.header nav {
+  display: flex;
+  gap: 20px;
+}
+
+.header a {
+  color: white;
+  text-decoration: none;
+}
+
+.main {
+  min-height: 80vh;
+  padding: 20px;
+}
+
+.footer {
+  background: #023e8a;
+  color: white;
+  text-align: center;
+  padding: 15px;
+}
